@@ -1,7 +1,7 @@
 # Hausaufgabe1
 
 Von:
-Phillip
+Phillip Fiala
 Paul David Beck
 
 # Latest Changes
