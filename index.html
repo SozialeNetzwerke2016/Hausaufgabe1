@@ -8,11 +8,35 @@
     <title>TODO List</title>
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        @-moz-document url-prefix() {
+          fieldset { display: table-cell; }
+        }
 
+        .dont-break-out {
+
+          /* These are technically the same, but use both */
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+
+          -ms-word-break: break-all;
+          /* This is the dangerous one in WebKit, as it breaks things wherever */
+          word-break: break-all;
+          /* Instead use this non-standard one: */
+          word-break: break-word;
+
+          /* Adds a hyphen where the word breaks, if supported (No Blink) */
+          -ms-hyphens: auto;
+          -moz-hyphens: auto;
+          -webkit-hyphens: auto;
+          hyphens: auto;
+
+        }
+    </style>
   </head>
 
   <body>
-
+    
     <nav class="navbar navbar-default">
 
           <div class="container-fluid">
@@ -38,8 +62,8 @@
               
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">TODO List<span class="sr-only">(current)</span></a></li>
-                <li><a href="impressum.html">Impressum</a></li>
                 <li><a href="newTodo.html">New TODO</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
               </ul>
                             
             </div><!-- /.navbar-collapse -->
@@ -47,10 +71,24 @@
         </nav>
     <div class="container">
       
+
       <div class="page-header">
         <h1>TODO <small>strukturiere dein Leben.</small></h1>
       </div>
     
+      <div class="list-group">
+        <a href="editTodo.html" class="list-group-item ">
+          <h4 class="list-group-item-heading">List group item heading</h4>
+          <span class="badge">14%</span>
+          <p class="list-group-item-text">16.06.2016, 12:45</p>
+        </a>
+        <a href="editTodo.html" class="list-group-item ">
+          <h4 class="list-group-item-heading dont-break-out">looooooooooooooooooooooooooooooooooooong</h4>
+          <span class="badge">14%</span>
+          <p class="list-group-item-text">12.12.2016, 8:00</p>
+        </a>
+      </div>
+      <!--
       <div class="table-responsive">
           <table class="table table-hover table-striped">
 
@@ -109,7 +147,7 @@
           </table>
       </div>
     </div>
-
+    -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
