@@ -39,55 +39,99 @@
     
     <nav class="navbar navbar-default">
 
-          <div class="container-fluid">
+      <div class="container-fluid">
 
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
 
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-              <div class="navbar-brand navbar-brand-centered">             
-                    <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-              </div>
+          <div class="navbar-brand navbar-brand-centered">             
+            <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          </div>
 
-            </div>
+        </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">TODO List<span class="sr-only">(current)</span></a></li>
-                <li><a href="newTodo.html">New TODO</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
-              </ul>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">TODO List<span class="sr-only">(current)</span></a></li>
+            <li><a href="newTodo.html">New TODO</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
                             
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
     <div class="container">
-      
 
       <div class="page-header">
         <h1>TODO <small>strukturiere dein Leben.</small></h1>
       </div>
-    
+
       <div class="list-group">
-        <a href="editTodo.html" class="list-group-item ">
-          <h4 class="list-group-item-heading">List group item heading</h4>
-          <span class="badge">14%</span>
-          <p class="list-group-item-text">16.06.2016, 12:45</p>
-        </a>
-        <a href="editTodo.html" class="list-group-item ">
-          <h4 class="list-group-item-heading dont-break-out">looooooooooooooooooooooooooooooooooooong</h4>
-          <span class="badge">14%</span>
-          <p class="list-group-item-text">12.12.2016, 8:00</p>
-        </a>
+
+        <a href="#" class="list-group-item clearfix">
+	  <h4 class="list-group-item-heading">finde einen Gruppenpartner <span class="badge">100%<span></h4>
+	  <p class="list-group-item-text">25.04.2016, 11:45</p>
+	  <span class="pull-right">
+            <button type="button" class="btn btn-default btn-sml" onclick="location.href='editTodo1.html'">
+              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+            </button>
+	    <button type="button" class="btn btn-default btn-sml">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Delete
+            </button>
+	  </span>  	
+	</a>        
+
+	<a href="#" class="list-group-item clearfix">
+	  <h4 class="list-group-item-heading">erstelle GitHub Benutzerkonto <span class="badge">100%<span></h4>
+	  <p class="list-group-item-text">01.05.2016, 23:55</p>
+	  <span class="pull-right">
+            <button type="button" class="btn btn-default btn-sml" onclick="location.href='editTodo2.html'">
+              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+            </button>
+	    <button type="button" class="btn btn-default btn-sml">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Delete
+            </button>
+	  </span>  	
+	</a>
+
+        <a href="#" class="list-group-item clearfix">
+	  <h4 class="list-group-item-heading">erstelle mit dem Bootstrap Framework eine statische Webseite die einen einfachen TODO-Tracker simuliert <span class="badge">100%<span></h4>
+	  <p class="list-group-item-text">01.05.2016, 23:55</p>
+	  <span class="pull-right">
+            <button type="button" class="btn btn-default btn-sml" onclick="location.href='editTodo3.html'">
+              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+            </button>
+	    <button type="button" class="btn btn-default btn-sml">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Delete
+            </button>
+	  </span>  	
+	</a>
+
+        <a href="#" class="list-group-item clearfix">
+	  <h4 class="list-group-item-heading">erreiche 70 von 100 Punkten um das Programmierpraktikum zu bestehen <span class="badge">7%<span></h4>
+	  <p class="list-group-item-text">22.07.2016, 14:00</p>
+	  <span class="pull-right">
+            <button type="button" class="btn btn-default btn-sml" onclick="location.href='editTodo4.html'">
+              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+            </button>
+	    <button type="button" class="btn btn-default btn-sml">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Delete
+            </button>
+	  </span>  	
+	</a>
+
       </div>
+
       <!--
       <div class="table-responsive">
           <table class="table table-hover table-striped">
